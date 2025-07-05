@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins','sans-serif';
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #080808;
+    color: #fff;
+.heading {
+  width: 100vw; /* full viewport width */
+  padding: 1.5rem 2rem;
+  background-color: #1a1a1a; /* dark background for modern look */
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.spell_input1{
+width: 100vw;
+padding: 1.5rem 2rem;
+box-sizing:border-box;
+}
+
+form input[type="text"]{
+width: 100%;
+padding:0.751rem 1rem;
+font-size: 1rem;
+margin-bottom: 1rem;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+.btn{
+  display:block;
+  margin: 0 auto;
+  background: #ff004f;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align: center;
+}

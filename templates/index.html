@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spell Checker By Ishaan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="robots" content="index,follow">
+    <meta name="generator" content="GrapesJS Studio">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<div class="heading"><h1>Spell Checker By Ishaan</h1></div>
+<div class="spell_input1">
+    <form name="spell_checker_input" method="POST">
+        <input type="text" name="Name" placeholder="Enter the word" required>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+</div>
+{% if word%}
+<div class="result">
+    <p>You entered : <strong> {{word}} </strong></p>
+    <p>The most likely correct word is : <strong> {{corrected_word}} </strong></p>
+
+</div>
+{% endif %}
+</body>
+</html>
